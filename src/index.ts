@@ -16,7 +16,7 @@ app.use(morgan('dev'));
 app.use(express.json());
 
 //Routes
-app.use('/books', booksRoutes);
+app.use('/api/books', booksRoutes);
 
 const PORT: number | string = process.env.PORT || 5000;
 
